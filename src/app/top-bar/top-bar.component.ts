@@ -17,7 +17,7 @@ export class TopBarComponent {
     console.log('in component function');
 
     const simulationState: SimulationState = {
-      state:'run'
+      state:'start'
     };
 
     if (this.iconValue == "play_circle") {

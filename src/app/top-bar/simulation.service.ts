@@ -17,8 +17,8 @@ const httpOptions = {
 
 @Injectable()
 export class SimulationService {
-  url = '/v1/drones/simulation';  // URL to web api
-  tubesUrl = '/v1/drones/traffic';  // URL to web api
+  url = 'http://localhost:8080/v1/drones/simulation';  // URL to web api
+  tubesUrl = 'http://localhost:8080/v1/drones/traffic';  // URL to web api
 
   constructor(
     private http: HttpClient) {

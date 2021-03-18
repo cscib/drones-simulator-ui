@@ -50,8 +50,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angularTest2:build",
-            "proxyConfig": "./proxy.conf.json"
+            "browserTarget": "angularTest2:build"
           },
           "configurations": {
             "production": {

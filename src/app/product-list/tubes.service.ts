@@ -17,7 +17,7 @@ const httpOptions = {
 
 @Injectable()
 export class TubesService {
-  tubesUrl = '/v1/drones/traffic';  // URL to web api
+  tubesUrl = 'http://localhost:8080/v1/drones/traffic';  // URL to web api
 
   constructor(
     private http: HttpClient) {
