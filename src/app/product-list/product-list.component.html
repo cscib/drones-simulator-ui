@@ -1,0 +1,18 @@
+<h2><i class="material-icons">train</i> Tube Station Traffic Status</h2>
+
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
+
+<ul class="tubes">
+  <li *ngFor="let tube of tubes">
+    <span>{{tube.name}}</span>
+    <span>{{tube.date}}</span>
+    <span>{{tube.trafficConditions}}</span>
+    <span>{{tube.droneSpeed}}</span>
+    <span>{{tube.trafficConditions}}</span>
+  </li>
+</ul>
